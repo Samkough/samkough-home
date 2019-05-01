@@ -17,6 +17,7 @@ Application for my house for everyone to see what to do and chat.
 - :white_check_mark: Have backend working
 - :white_check_mark: Implement React
 - :white_check_mark: Have React and Node work together
+- :pencil2: Need to remove form.html from backend and have React be able to do backend work 
 - :pencil2: Create a login and registration system
 - :x: Connect to Heroku
     - Need to have an external server (possibly look into phpMyAdmin if it can do this)
