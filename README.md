@@ -1,6 +1,11 @@
 # Samkough Home
 Application for my house for everyone to see what to do and chat.
 
+## Purpose
+- Monitor house metrics (i.e. internet, how many users on network, etc.)
+- Platform for everyone in the house to talk to one another
+- FAQ for any questions
+
 ## Scripts
 - npm run dev: "concurrently \"npm run server\" \"npm run client\""
     - Main script; runs both the server and client through an npm package called concurrently
