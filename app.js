@@ -1,19 +1,22 @@
 const express = require("express")
-const app = express()
 const morgan = require("morgan")
 const mysql = require("mysql")
 const bodyParser = require("body-parser");
-const router = require('./routes/user.js')
+
+const app = express()
+const userRouter = require('./routes/user.js')
 const PORT = process.env.port || 3000;
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static('./public'))
 app.use(morgan('short'))
-app.use(router)
+
+// routes
+app.use(userRouter)
 
 app.get("/", (req, res) => {
-    console.log("response")
-    res.send("test")
+    console.log("Hi this is the root page.")
+    res.send("Hi this is the root page.")
 })
 
 app.listen(PORT, () => {
