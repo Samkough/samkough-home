@@ -18,6 +18,7 @@ router.get("/users", (req, res) => {
 
         console.log("fetch successful")
         res.json(rows)
+        res.end()
     })
 })
 
