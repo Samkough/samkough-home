@@ -57,11 +57,13 @@ router.get('/user/:id', (req, res) => {
     })
 })
 
+// the comments are for the connections to heroku
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: "localhost",
-    user: "root",
-    database: "dsoft"
+    host: "localhost", // us-cdbr-iron-east-02.cleardb.net
+    user: "root", // becb7b15253d12
+    // password: "c3703855",
+    database: "dsoft" // heroku_44dd187f37733bc
 })
 
 function getConnection() {
