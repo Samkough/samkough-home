@@ -1,0 +1,27 @@
+{
+  "name": "samkough-home",
+  "version": "1.0.0",
+  "description": "Application for my house for everyone to see what to do and chat.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samkough/samkough-home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samkough/samkough-home/issues"
+  },
+  "homepage": "https://github.com/Samkough/samkough-home#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.0"
+  }
+}
